@@ -10,7 +10,6 @@ export default function Home() {
       <Head>
           <title>Home</title>
       </Head>
-      <h1 className="text-4xl text-center mt-12">Welcome to Home Page <FaBeer/></h1>
     </div>
   );
 }
