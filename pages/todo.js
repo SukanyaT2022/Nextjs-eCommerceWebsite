@@ -1,5 +1,6 @@
 import {useState,useEffect} from "react";
 // import uuid from 'uuid'
+import { FaRegStar } from "react-icons/fa";
 
 const todo = () => {
 const [items,setItems] = useState([]);
@@ -26,7 +27,10 @@ const updateFavoite = (id)=>{
     setItems(filter)
     console.log(filter)
 }
-
+const removeFunc =(id)=>{
+    const updateItems = items.filter((item) => item.id !== id);
+    setItems(updateItems)
+}
 useEffect(()=>{
     console.log(items)
 },[items])
@@ -46,10 +50,11 @@ return (
                 {items.length>0 && items.map((item,key)=>(
                     <div className="flex mb-4 items-center bg-gray-100" key={key}>
                         <p className="w-full text-grey-darkest">{item.val}</p>
-                        <button>Remove</button>
+                        <button onClick={()=>removeFunc(item.id)}>Remove</button>
                         {item.star?
-                            <img src="https://img.icons8.com/?size=100&id=XBMnwwJYQvfN&format=png&color=000000" className="w-20" onClick={() => updateFavoite(item.id)}/>:
-                         <img src="https://img.icons8.com/?size=100&id=zjmyhXVAojeZ&format=png&color=000000" className="w-20" onClick={() => updateFavoite(item.id)}/>
+                         <FaRegStar style={{color:'red'}} onClick={() => updateFavoite(item.id)}/>
+                         :
+                         <FaRegStar className="!text-5xl" onClick={() => updateFavoite(item.id)}/>
                         }
                     </div>
                 ))}

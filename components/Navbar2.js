@@ -32,7 +32,7 @@ const Navbar2 = () => {
           Home
         </Navbar.Link>
         <Navbar.Link href="todo">Todo</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
+        <Navbar.Link href="mytodo">mytodo</Navbar.Link>
         <Navbar.Link href="#">Pricing</Navbar.Link>
         <Navbar.Link href="#">Contact</Navbar.Link>
       </Navbar.Collapse>
