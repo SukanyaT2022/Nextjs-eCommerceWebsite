@@ -1,8 +1,13 @@
 import {data} from '../components/data'
 import Link from 'next/link'
-
+import { dataProducts } from '../components/AirbnbScrapData';
+import { useEffect } from 'react';
 export default function Products(){
 
+  useEffect(()=>{
+console.log(dataProducts)
+
+  },[])
   return (
     <div className="flex flex-wrap gap-6 justify-center p-4">
       {data && data.map((product) => (
