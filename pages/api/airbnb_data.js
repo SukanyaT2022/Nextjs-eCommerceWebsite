@@ -1,5 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
   res.status(200).json(
     {
@@ -17,7 +15,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Ali", "comment": "Excellent service and clean rooms.", "rating": 5 },
             { "user": "Sara", "comment": "Great location, but noisy at night.", "rating": 4 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Lahore"
         },
         {
           "id": 2,
@@ -32,7 +31,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Omar", "comment": "Amazing beachfront view.", "rating": 5 },
             { "user": "Zara", "comment": "Expensive but worth it.", "rating": 4 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Karachi"
         },
         {
           "id": 3,
@@ -47,7 +47,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Ahmed", "comment": "Affordable and cozy.", "rating": 4 },
             { "user": "Nida", "comment": "Friendly staff, but rooms are small.", "rating": 3.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Islamabad"
         },
         {
           "id": 4,
@@ -62,7 +63,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Farah", "comment": "Top-notch service!", "rating": 5 },
             { "user": "Hassan", "comment": "Rooms are luxurious.", "rating": 4.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Multan"
         },
         {
           "id": 5,
@@ -77,7 +79,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Rizwan", "comment": "Good value for money.", "rating": 4 },
             { "user": "Ayesha", "comment": "Basic facilities but clean.", "rating": 3.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Peshawar"
         },
         {
           "id": 6,
@@ -92,7 +95,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Junaid", "comment": "Beautiful views and peaceful.", "rating": 5 },
             { "user": "Kiran", "comment": "Great place for nature lovers.", "rating": 4 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Hunza"
         },
         {
           "id": 7,
@@ -107,7 +111,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Asif", "comment": "Modern and clean.", "rating": 4 },
             { "user": "Nazia", "comment": "Convenient location.", "rating": 4.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Lahore"
         },
         {
           "id": 8,
@@ -122,7 +127,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Bilal", "comment": "Comfortable stay and great food.", "rating": 5 },
             { "user": "Mehwish", "comment": "Spacious rooms.", "rating": 4 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Bahawalpur"
         },
         {
           "id": 9,
@@ -137,7 +143,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Shahbaz", "comment": "Loved the cultural experience.", "rating": 5 },
             { "user": "Rabia", "comment": "Unique decor and great staff.", "rating": 4.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Quetta"
         },
         {
           "id": 10,
@@ -152,7 +159,8 @@ export default function handler(req, res) {
           "reviews": [
             { "user": "Usman", "comment": "Breathtaking ocean views.", "rating": 5 },
             { "user": "Huma", "comment": "Perfect for a relaxing vacation.", "rating": 4.5 }
-          ]
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Gwadar"
         }
       ]
     }    
