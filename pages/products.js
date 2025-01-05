@@ -31,9 +31,20 @@ useEffect(()=>{
   fetchData();
 },[])
 
+useEffect(()=>{
+  let types = [];
+  data.map((item)=>{
+      if(!types.includes(item.type)){
+        types.push(item.type);
+      }
+  }) 
+  console.log(types);
+},[data])
+
+
   return (
     <div className="flex flex-wrap gap-6 justify-center p-4">
-      <div></div>
+
       {data && data.map((product) => (
         <Link href={`details?id=${product.id}`}>
           <div

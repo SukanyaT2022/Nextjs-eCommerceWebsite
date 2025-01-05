@@ -16,7 +16,10 @@ export default function handler(req, res) {
             { "user": "Ali", "comment": "Excellent service and clean rooms.", "rating": 5 },
             { "user": "Sara", "comment": "Great location, but noisy at night.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Lahore"
+          "image": "https://via.placeholder.com/300x200?text=Lahore",
+          "country": "Pakistan",
+          "city": "Islamabad",
+          "type": "beach_front"
         },
         {
           "id": 2,
@@ -32,7 +35,8 @@ export default function handler(req, res) {
             { "user": "Omar", "comment": "Amazing beachfront view.", "rating": 5 },
             { "user": "Zara", "comment": "Expensive but worth it.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Karachi"
+          "image": "https://via.placeholder.com/300x200?text=Karachi",
+          "type": "beach_front"
         },
         {
           "id": 3,
@@ -48,7 +52,8 @@ export default function handler(req, res) {
             { "user": "Ahmed", "comment": "Affordable and cozy.", "rating": 4 },
             { "user": "Nida", "comment": "Friendly staff, but rooms are small.", "rating": 3.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Islamabad"
+          "image": "https://via.placeholder.com/300x200?text=Islamabad",
+          "type": "family"
         },
         {
           "id": 4,
@@ -64,7 +69,8 @@ export default function handler(req, res) {
             { "user": "Farah", "comment": "Top-notch service!", "rating": 5 },
             { "user": "Hassan", "comment": "Rooms are luxurious.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Multan"
+          "image": "https://via.placeholder.com/300x200?text=Multan",
+          "type": "amazing_view"
         },
         {
           "id": 5,
@@ -80,7 +86,8 @@ export default function handler(req, res) {
             { "user": "Rizwan", "comment": "Good value for money.", "rating": 4 },
             { "user": "Ayesha", "comment": "Basic facilities but clean.", "rating": 3.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Peshawar"
+          "image": "https://via.placeholder.com/300x200?text=Peshawar",
+          "type": "family"
         },
         {
           "id": 6,
@@ -96,7 +103,8 @@ export default function handler(req, res) {
             { "user": "Junaid", "comment": "Beautiful views and peaceful.", "rating": 5 },
             { "user": "Kiran", "comment": "Great place for nature lovers.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Hunza"
+          "image": "https://via.placeholder.com/300x200?text=Hunza",
+          "type": "amazing_view"
         },
         {
           "id": 7,
@@ -112,7 +120,8 @@ export default function handler(req, res) {
             { "user": "Asif", "comment": "Modern and clean.", "rating": 4 },
             { "user": "Nazia", "comment": "Convenient location.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Lahore"
+          "image": "https://via.placeholder.com/300x200?text=Lahore",
+          "type": "family"
         },
         {
           "id": 8,
@@ -128,7 +137,8 @@ export default function handler(req, res) {
             { "user": "Bilal", "comment": "Comfortable stay and great food.", "rating": 5 },
             { "user": "Mehwish", "comment": "Spacious rooms.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Bahawalpur"
+          "image": "https://via.placeholder.com/300x200?text=Bahawalpur",
+          "type": "amazing_view"
         },
         {
           "id": 9,
@@ -144,7 +154,8 @@ export default function handler(req, res) {
             { "user": "Shahbaz", "comment": "Loved the cultural experience.", "rating": 5 },
             { "user": "Rabia", "comment": "Unique decor and great staff.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Quetta"
+          "image": "https://via.placeholder.com/300x200?text=Quetta",
+          "type": "family"
         },
         {
           "id": 10,
@@ -160,9 +171,180 @@ export default function handler(req, res) {
             { "user": "Usman", "comment": "Breathtaking ocean views.", "rating": 5 },
             { "user": "Huma", "comment": "Perfect for a relaxing vacation.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Gwadar"
-        }
+          "image": "https://via.placeholder.com/300x200?text=Gwadar",
+          "type": "beach_front"
+        },
+        {
+          "id": 11,
+          "name": "Pearl Vista Resort",
+          "location": "Skardu, Pakistan",
+          "pricePerNight": 160,
+          "checkInTime": "3:00 PM",
+          "checkOutTime": "12:00 PM",
+          "availableRooms": 9,
+          "amenities": ["Mountain Views", "Hiking Trails", "Free Breakfast", "Parking"],
+          "rating": 4.8,
+          "reviews": [
+            { "user": "Tariq", "comment": "An unforgettable mountain retreat.", "rating": 5 },
+            { "user": "Sameera", "comment": "Serene location and amazing food.", "rating": 4.5 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Skardu",
+          "type": "amazing_view"
+        },
+        {
+          "id": 12,
+          "name": "The Sapphire Inn",
+          "location": "Murree, Pakistan",
+          "pricePerNight": 140,
+          "checkInTime": "2:00 PM",
+          "checkOutTime": "11:00 AM",
+          "availableRooms": 15,
+          "amenities": ["Free WiFi", "Fireplace", "Restaurant", "Parking"],
+          "rating": 4.6,
+          "reviews": [
+            { "user": "Haris", "comment": "Cosy and perfect for families.", "rating": 5 },
+            { "user": "Faiza", "comment": "Great view of the hills.", "rating": 4.5 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Murree",
+          "type": "family"
+        },
+        {
+          "id": 13,
+          "name": "Seaside Paradise",
+          "location": "Kund Malir, Pakistan",
+          "pricePerNight": 220,
+          "checkInTime": "4:00 PM",
+          "checkOutTime": "12:00 PM",
+          "availableRooms": 5,
+          "amenities": ["Beachfront", "Free Breakfast", "Outdoor Activities", "Parking"],
+          "rating": 4.9,
+          "reviews": [
+            { "user": "Jamal", "comment": "Absolute beachfront paradise.", "rating": 5 },
+            { "user": "Lubna", "comment": "Perfect for a weekend getaway.", "rating": 4.8 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Kund+Malir",
+          "type": "beach_front"
+        },
+        {
+          "id": 14,
+          "name": "Green Valley Resort",
+          "location": "Swat, Pakistan",
+          "pricePerNight": 130,
+          "checkInTime": "2:30 PM",
+          "checkOutTime": "11:30 AM",
+          "availableRooms": 20,
+          "amenities": ["Free WiFi", "Hiking Trails", "Restaurant", "Spa"],
+          "rating": 4.5,
+          "reviews": [
+            { "user": "Adeel", "comment": "Breathtaking valley views.", "rating": 5 },
+            { "user": "Naveen", "comment": "Well-maintained and peaceful.", "rating": 4.5 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Swat",
+          "type": "amazing_view"
+        },
+        {
+          "id": 15,
+          "name": "Ocean Pearl Hotel",
+          "location": "Ormara, Pakistan",
+          "pricePerNight": 190,
+          "checkInTime": "3:00 PM",
+          "checkOutTime": "12:00 PM",
+          "availableRooms": 10,
+          "amenities": ["Beachfront", "Swimming Pool", "Free Parking", "Restaurant"],
+          "rating": 4.8,
+          "reviews": [
+            { "user": "Amir", "comment": "A hidden gem by the sea.", "rating": 5 },
+            { "user": "Sabah", "comment": "Quiet and luxurious.", "rating": 4.7 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Ormara",
+          "type": "beach_front"
+        },
+        {
+          "id": 16,
+          "name": "The Alpine Lodge",
+          "location": "Naran, Pakistan",
+          "pricePerNight": 120,
+          "checkInTime": "2:00 PM",
+          "checkOutTime": "10:00 AM",
+          "availableRooms": 18,
+          "amenities": ["Mountain Views", "Free WiFi", "Restaurant", "Parking"],
+          "rating": 4.7,
+          "reviews": [
+            { "user": "Waqar", "comment": "Amazing location and clean rooms.", "rating": 5 },
+            { "user": "Hina", "comment": "Affordable and scenic.", "rating": 4.6 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Naran",
+          "type": "amazing_view"
+        },
+        {
+          "id": 17,
+          "name": "Family Comfort Inn",
+          "location": "Faisalabad, Pakistan",
+          "pricePerNight": 75,
+          "checkInTime": "12:00 PM",
+          "checkOutTime": "10:00 AM",
+          "availableRooms": 22,
+          "amenities": ["Free WiFi", "Parking", "Restaurant"],
+          "rating": 4.2,
+          "reviews": [
+            { "user": "Zeeshan", "comment": "Convenient and family-friendly.", "rating": 4 },
+            { "user": "Sadia", "comment": "Good location and clean.", "rating": 4.3 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Faisalabad",
+          "type": "family"
+        },
+        {
+          "id": 18,
+          "name": "The Cliffside Retreat",
+          "location": "Ziarat, Pakistan",
+          "pricePerNight": 140,
+          "checkInTime": "2:00 PM",
+          "checkOutTime": "11:00 AM",
+          "availableRooms": 12,
+          "amenities": ["Mountain Views", "Free Breakfast", "Hiking Trails", "Restaurant"],
+          "rating": 4.6,
+          "reviews": [
+            { "user": "Fahad", "comment": "A refreshing stay in the mountains.", "rating": 5 },
+            { "user": "Sana", "comment": "Perfect for nature enthusiasts.", "rating": 4.5 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Ziarat",
+          "type": "amazing_view"
+        },
+        {
+          "id": 19,
+          "name": "Lakeside Serenity",
+          "location": "Saif-ul-Muluk, Pakistan",
+          "pricePerNight": 180,
+          "checkInTime": "3:00 PM",
+          "checkOutTime": "11:30 AM",
+          "availableRooms": 7,
+          "amenities": ["Lake Views", "Boating", "Free Breakfast", "Parking"],
+          "rating": 4.9,
+          "reviews": [
+            { "user": "Usama", "comment": "Mesmerizing views of the lake.", "rating": 5 },
+            { "user": "Saira", "comment": "Calm and peaceful surroundings.", "rating": 4.9 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Saif-ul-Muluk",
+          "type": "amazing_view"
+        },
+        {
+          "id": 20,
+          "name": "Sunrise Beach Resort",
+          "location": "Pasni, Pakistan",
+          "pricePerNight": 200,
+          "checkInTime": "4:00 PM",
+          "checkOutTime": "12:00 PM",
+          "availableRooms": 6,
+          "amenities": ["Beachfront", "Swimming Pool", "Restaurant", "Free WiFi"],
+          "rating": 4.8,
+          "reviews": [
+            { "user": "Noman", "comment": "Ideal for a family getaway.", "rating": 5 },
+            { "user": "Haleema", "comment": "Perfect sunrise views by the beach.", "rating": 4.8 }
+          ],
+          "image": "https://via.placeholder.com/300x200?text=Pasni",
+          "type": "beach_front"
+        }        
       ]
-    }    
+    }
   );
 }
