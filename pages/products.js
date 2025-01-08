@@ -23,6 +23,8 @@ const [data,setData] = useState([])
 //and npm run dev again
 //import axios from 'axios'; put on top
 
+
+//This will run just for once when app will run for the first time
 useEffect(()=>{
   const fetchData = async()=>{
       const response = await axios.get('http://localhost:3000/api/airbnb_data');
@@ -31,16 +33,26 @@ useEffect(()=>{
   fetchData();
 },[])
 
+//This will always run when data changes
 useEffect(()=>{
-  let types = [];
+  let hotel_types = [];
   data.map((item)=>{
-      if(!types.includes(item.type)){
-        types.push(item.type);
+      if(hotel_types.includes(item.type)){
+        //if thT HOTEL TYPE EXIST --DONOT DO ANY THING DO NOT RUN CODE
+      }else{
+        hotel_types.push(item.type);
+        // IF hotel not exist add it
       }
   }) 
   console.log(types);
 },[data])
 
+
+// if(hotel_already_exist_in_array){
+//   //Don't	Add that hotel type	
+// }else{
+//   //Add that type
+// }
 
   return (
     <div className="flex flex-wrap gap-6 justify-center p-4">
@@ -68,4 +80,3 @@ useEffect(()=>{
     </div>
   );
 };
-

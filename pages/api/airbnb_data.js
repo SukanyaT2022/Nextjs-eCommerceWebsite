@@ -295,6 +295,7 @@ export default function handler(req, res) {
         },
         {
           "id": 18,
+          
           "name": "The Cliffside Retreat",
           "location": "Ziarat, Pakistan",
           "pricePerNight": 140,
