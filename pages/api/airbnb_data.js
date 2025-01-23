@@ -16,7 +16,7 @@ export default function handler(req, res) {
             { "user": "Ali", "comment": "Excellent service and clean rooms.", "rating": 5 },
             { "user": "Sara", "comment": "Great location, but noisy at night.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Lahore",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "country": "Pakistan",
           "city": "Islamabad",
           "type": "beach_front"
@@ -35,7 +35,7 @@ export default function handler(req, res) {
             { "user": "Omar", "comment": "Amazing beachfront view.", "rating": 5 },
             { "user": "Zara", "comment": "Expensive but worth it.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Karachi",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "beach_front"
         },
         {
@@ -52,7 +52,7 @@ export default function handler(req, res) {
             { "user": "Ahmed", "comment": "Affordable and cozy.", "rating": 4 },
             { "user": "Nida", "comment": "Friendly staff, but rooms are small.", "rating": 3.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Islamabad",
+        "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -69,7 +69,7 @@ export default function handler(req, res) {
             { "user": "Farah", "comment": "Top-notch service!", "rating": 5 },
             { "user": "Hassan", "comment": "Rooms are luxurious.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Multan",
+        "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -86,7 +86,7 @@ export default function handler(req, res) {
             { "user": "Rizwan", "comment": "Good value for money.", "rating": 4 },
             { "user": "Ayesha", "comment": "Basic facilities but clean.", "rating": 3.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Peshawar",
+         "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -103,7 +103,7 @@ export default function handler(req, res) {
             { "user": "Junaid", "comment": "Beautiful views and peaceful.", "rating": 5 },
             { "user": "Kiran", "comment": "Great place for nature lovers.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Hunza",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -120,7 +120,7 @@ export default function handler(req, res) {
             { "user": "Asif", "comment": "Modern and clean.", "rating": 4 },
             { "user": "Nazia", "comment": "Convenient location.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Lahore",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -137,7 +137,7 @@ export default function handler(req, res) {
             { "user": "Bilal", "comment": "Comfortable stay and great food.", "rating": 5 },
             { "user": "Mehwish", "comment": "Spacious rooms.", "rating": 4 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Bahawalpur",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -154,7 +154,7 @@ export default function handler(req, res) {
             { "user": "Shahbaz", "comment": "Loved the cultural experience.", "rating": 5 },
             { "user": "Rabia", "comment": "Unique decor and great staff.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Quetta",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -171,7 +171,7 @@ export default function handler(req, res) {
             { "user": "Usman", "comment": "Breathtaking ocean views.", "rating": 5 },
             { "user": "Huma", "comment": "Perfect for a relaxing vacation.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Gwadar",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "beach_front"
         },
         {
@@ -188,7 +188,7 @@ export default function handler(req, res) {
             { "user": "Tariq", "comment": "An unforgettable mountain retreat.", "rating": 5 },
             { "user": "Sameera", "comment": "Serene location and amazing food.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Skardu",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -205,7 +205,7 @@ export default function handler(req, res) {
             { "user": "Haris", "comment": "Cosy and perfect for families.", "rating": 5 },
             { "user": "Faiza", "comment": "Great view of the hills.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Murree",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -222,7 +222,7 @@ export default function handler(req, res) {
             { "user": "Jamal", "comment": "Absolute beachfront paradise.", "rating": 5 },
             { "user": "Lubna", "comment": "Perfect for a weekend getaway.", "rating": 4.8 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Kund+Malir",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "beach_front"
         },
         {
@@ -239,7 +239,7 @@ export default function handler(req, res) {
             { "user": "Adeel", "comment": "Breathtaking valley views.", "rating": 5 },
             { "user": "Naveen", "comment": "Well-maintained and peaceful.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Swat",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -256,7 +256,7 @@ export default function handler(req, res) {
             { "user": "Amir", "comment": "A hidden gem by the sea.", "rating": 5 },
             { "user": "Sabah", "comment": "Quiet and luxurious.", "rating": 4.7 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Ormara",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "beach_front"
         },
         {
@@ -273,7 +273,7 @@ export default function handler(req, res) {
             { "user": "Waqar", "comment": "Amazing location and clean rooms.", "rating": 5 },
             { "user": "Hina", "comment": "Affordable and scenic.", "rating": 4.6 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Naran",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -290,7 +290,7 @@ export default function handler(req, res) {
             { "user": "Zeeshan", "comment": "Convenient and family-friendly.", "rating": 4 },
             { "user": "Sadia", "comment": "Good location and clean.", "rating": 4.3 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Faisalabad",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "family"
         },
         {
@@ -308,7 +308,7 @@ export default function handler(req, res) {
             { "user": "Fahad", "comment": "A refreshing stay in the mountains.", "rating": 5 },
             { "user": "Sana", "comment": "Perfect for nature enthusiasts.", "rating": 4.5 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Ziarat",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -325,7 +325,7 @@ export default function handler(req, res) {
             { "user": "Usama", "comment": "Mesmerizing views of the lake.", "rating": 5 },
             { "user": "Saira", "comment": "Calm and peaceful surroundings.", "rating": 4.9 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Saif-ul-Muluk",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "amazing_view"
         },
         {
@@ -342,7 +342,7 @@ export default function handler(req, res) {
             { "user": "Noman", "comment": "Ideal for a family getaway.", "rating": 5 },
             { "user": "Haleema", "comment": "Perfect sunrise views by the beach.", "rating": 4.8 }
           ],
-          "image": "https://via.placeholder.com/300x200?text=Pasni",
+          "image": "https://images.trvl-media.com/lodging/1000000/1000000/992200/992175/d4613274.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "type": "beach_front"
         }        
       ]

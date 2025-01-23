@@ -6,6 +6,7 @@ import axios from 'axios';
 
 export default function Products(){
 const [data,setData] = useState([])
+const [types,setTypes] = useState([])
   // option 1 call api
 //   const dataHandler = async()=>{
 //     const response = await fetch('http://localhost:3000/api/airbnb_data');
@@ -36,15 +37,10 @@ useEffect(()=>{
 //This will always run when data changes
 useEffect(()=>{
   let hotel_types = [];
-  data.map((item)=>{
-      if(hotel_types.includes(item.type)){
-        //if thT HOTEL TYPE EXIST --DONOT DO ANY THING DO NOT RUN CODE
-      }else{
-        hotel_types.push(item.type);
-        // IF hotel not exist add it
-      }
+  data && data.map((item)=>{
+      if(!hotel_types.includes(item.type)) setTypes(hotel_types.push(item.type));
+      //if hotel type not repeat push i
   }) 
-  console.log(types);
 },[data])
 
 
